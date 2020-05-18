@@ -1,0 +1,80 @@
+@media (max-width: 767px) {
+    .column-1,
+    .column-2 {
+        width: 100%;
+    }
+
+    
+@media (min-width: 768px) and (max-width: 991px) {
+    .column-1 {
+        width: 50%;
+    }
+    .column-2 {
+        width: 100%;
+    }
+   
+}
+
+  
+}
+@media (min-width: 992px) {
+    .column-2,
+    .column-1 {
+        width: 33%;
+    }
+    #logo {
+        margin-left: 10px;
+    }
+  
+}
+
+.frases {
+  
+    margin: 10px 1px 10px 1px;
+}
+
+.videos {
+  
+    padding: 30px ;
+}
+
+body {
+    background: rgb(255, 255, 255)
+}
+
+.card-1 {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 0px auto 0px auto;
+}
+
+#interface {
+    background-color:white;
+    box-shadow: 1px 10px 15px rgba(1,2,2,.3);
+}
+
+.logop {
+    margin: 1px auto 1px auto;
+}
+
+
+
+.map-container {
+    overflow: hidden;
+    position: relative;
+    height: 0;
+  }
+
+  .map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+
+  .curva {
+
+    -moz-border-radius:100px;/*curva no menu*/
+	-webkit-border-radius:50px;/*curva no menu*/
+  }
